@@ -3,7 +3,7 @@ const fs = require('fs');
 const path = require('path');
 
 const apiUrl = 'https://api.cohere.ai/v1/chat';
-const apiKey = "YOUR_API_KEY"; // Get key from cohere developer site
+const apiKey = "0QrPVuUPwu0JlCCc3LllVsKXB9S78PXslGsxtR2H";
 
 var uid;
 var prompt;

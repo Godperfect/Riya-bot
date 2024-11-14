@@ -3,7 +3,7 @@ const fs = require('fs');
 const path = require('path');
 const { GoatWrapper } = require('fca-liane-utils');
 
-const API_KEY = "YOUR_API_KEY"; // GET KEY FROM https://for-devs.onrender.com/user/login
+const API_KEY = "r-e377e74a78b7363636jsj8ffb61ce"; // Replace with your actual API key
 
 module.exports = {
   config: {
