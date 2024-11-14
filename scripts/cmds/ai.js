@@ -1,7 +1,7 @@
 const axios = require('axios');
 
 let PriyaPrefix = [
-  'queen',
+  'Perfect',
   'ai',
   '.ai', // Add Your Prefix Here
 ];
@@ -77,7 +77,7 @@ module.exports = {
     }
 
     // Remove AI-related words from the query
-    const cleanedQuery = priya.replace(/\b(ai|queen|\.ai)\b/gi, '').trim();
+    const cleanedQuery = priya.replace(/\b(ai|Perfect|\.ai)\b/gi, '').trim();
     const encodedPrompt = encodeURIComponent(cleanedQuery);
 
     // Send the initial waiting message

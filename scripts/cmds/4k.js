@@ -29,7 +29,7 @@ module.exports.onStart = async function ({ api, event, message }) {
     }
 
     try {
-        const apiKey = "YOUR_API_KEY"; // Get Key From https://for-devs.onrender.com/user/login
+        const apiKey = "r-dbbe14887e0d22f26941171f"; // Get Key From https://for-devs.onrender.com/user/login
         message.reply("⌛ Processing your image...");
 
         const response = await axios({
