@@ -20,11 +20,18 @@
 const { spawn } = require("child_process");
 const log = require("./logger/log.js");
 
+// Use the PORT environment variable or default to 3000
+const PORT = process.env.PORT || 3000;
+
 function startProject() {
 	const child = spawn("node", ["Goat.js"], {
 		cwd: __dirname,
 		stdio: "inherit",
-		shell: true
+		shell: true,
+		env: {
+			...process.env, // Preserve existing environment variables
+			PORT: PORT      // Add the PORT variable
+		}
 	});
 
 	child.on("close", (code) => {
