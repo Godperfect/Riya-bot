@@ -83,5 +83,10 @@
                 "prettier": "^2.7.1",
                 "prompt-checkbox": "^2.2.0",
                 "terser": "^5.15.0"
+                 "scripts": {
+    "start": "node index.js",
+    "server": "nodemon server.js"
+  },
+"start": "cross-env PORT=3050" 
         }
 }
